@@ -2,6 +2,9 @@
     display: none;
   }
   
+  #coracao{
+    display: none;
+  }
   #coracao:checked + .icone > svg {
     animation: preencher;
     animation-duration: 0.5s;
